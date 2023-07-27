@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "name": "Astra",
+        "links": [
+            {
+                "to": 2,
+                "cost": 2
+            },
+            {
+                "to": 3,
+                "cost": 1
+            },
+            {
+                "to": 4,
+                "cost": 4
+            }
+        ],
+        "coordinates": {
+            "x": 5,
+            "y": 15
+        }
+    },
+    {
+        "id": 2,
+        "name": "Luka",
+        "links": [
+            {
+                "to": 1,
+                "cost": 2
+            }
+        ],
+        "coordinates": {
+            "x": 15,
+            "y": 5
+        }
+        
+    },
+    {
+        "id": 3,
+        "name": "Nemo",
+        "links": [
+            {
+                "to": 1,
+                "cost": 1
+            },
+            {
+                "to": 4,
+                "cost": 1
+            }
+        ],
+        "coordinates": {
+            "x": 30,
+            "y": 35
+        }
+    },
+    {
+        "id": 4,
+        "name": "Galaad",
+        "links": [
+            {
+                "to": 1,
+                "cost": 4
+            },
+            {
+                "to": 3,
+                "cost": 1
+            }
+        ],
+        "coordinates": {
+            "x": 40,
+            "y": 20
+        }
+    },
+    {
+        "id": 5,
+        "name": "Amazing-Les-Bains",
+        "links": [
+            {
+                "to": 6,
+                "cost": 2
+            }
+        ],
+        "coordinates": {
+            "x": 60,
+            "y": 10
+        }
+    },
+    {
+        "id": 6,
+        "name": "Ootal",
+        "links": [
+            {
+                "to": 5,
+                "cost": 2
+            }
+        ],
+        "coordinates": {
+            "x": 70,
+            "y": 35
+        }
+    }
+]
